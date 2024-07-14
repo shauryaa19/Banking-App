@@ -10,7 +10,7 @@ export default function RootLayout({
     return (
       <main className="flex min-h-screen w-full justify-between font-inter">
           {children}
-          <div className="auth-asset">
+          {/* <div className="auth-asset">
             <div>
               <Image 
                 src="/icons/auth-image.svg"
@@ -19,7 +19,7 @@ export default function RootLayout({
                 height={500}
               />
             </div>
-          </div>
+          </div> */}
       </main>
     );
   }
